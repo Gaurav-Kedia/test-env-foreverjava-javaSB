@@ -23,4 +23,4 @@ jobs:
           ssh-keyscan -t rsa -H ${{ secrets.SERVER_PUBLIC_IP }} >> ~/.ssh/known_hosts
       - name: Deploy to EC2
         run: |
-          ssh -v -i ~/.ssh/id_rsa ubuntu@${{ secrets.SERVER_PUBLIC_IP }} 'pwd && mkdir /home/ubuntu/java-SB-1 && cd /home/ubuntu/java-SB-1 && git pull origin main && pwd && ls -l'
+          ssh -v -i ~/.ssh/id_rsa ubuntu@${{ secrets.SERVER_PUBLIC_IP }} 'pwd && cd /home/ubuntu/java-SB-1/test-env-foreverjava-javaSB && pwd && ls -l'
