@@ -1,6 +1,4 @@
 cd
-cd /home/ubuntu/java-SB-1/test-env-foreverjava-javaSB
-git pull origin main
+cd /home/ubuntu/java-SB-1/test-env-foreverjava-javaSB/Scripts
 ls -l
-chmod +x Deploy-Script.sh
-./Deploy-Script.sh
+pwd
