@@ -4,3 +4,4 @@ cd /home/ubuntu/java-SB-1/test-env-foreverjava-javaSB/Scripts
 ls -l
 pwd
 echo "********** End of Deploy Script .sh file **********"
+echo "********** End of Deploy Script .sh file **********"
